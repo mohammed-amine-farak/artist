@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    height: 136px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   
+
+}
+section{
+    height:500vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-container{
+    height:400vh;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+}
+.about-text1{
+  width: 185px;
+  height: 92px;
+  
+  margin-top: 190px;
+  color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+}
+.about-container-parent{
+    height: 684.84px;
+    width: 1098px;
+    margin-top: 69px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-container-parent-child1{
+    height: 100%;
+    width: 538px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.about-container-parent-child1-kids{
+    width: 500px;
+    height: 574px;
+   
+    color: #FFF;
+font-family: Inter;
+font-size: 33.992px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.about-container-parent-child2{
+    height: 100%;
+    width: 500px;
+    background-image: url('img/Rectangle\ 7.png');
+
+}
+.testimonials{
+    width: 1098px;
+    height: 300vh;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.testimonials-text1{
+    width: 397px;
+    height: 92px;
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.testimonials-text2{
+    width: 951.56px;
+    height: 69px;
+   
+    margin-top: 21px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18.696px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.Testimonials-container1{
+   margin-top: 50px;
+      width: 951px;
+      height: 600px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  .viewBox1{
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+    border:2px solid #FFF;
+   
+    width: 188.61px;
+    height: 66.11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+text-align: right;
+font-family: Inter;
+font-size: 18.507px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+.Company1{
+    margin-top: 300px;
+      color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18.696px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+margin-bottom: 10px;
+ 
+  }
+  .Privacy2{
+      display: inline-block;
+      color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18.696px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  }
+  .Terms3{
+      
+      color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18.696px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  }
+  

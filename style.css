@@ -1,0 +1,604 @@
+
+
+*{
+padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 1280vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+header{
+    height: 136px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    position: absolute;
+   
+
+}
+
+.title {
+    
+    width: 58px;
+    height: 24px;
+    margin-left: 93px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.title p{
+    color: #fff;
+    font-family: Inter;
+    font-size:17px;
+    font-style: normal;
+    font-weight:bold;
+   
+    line-height: normal;
+    text-transform: uppercase; 
+  
+}
+.link{
+    position: absolute;
+    top: 67px;
+    left: 758px;
+   height:21px;
+   width:473px ;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 90px;
+}
+.inside-of-link a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16.996px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+.text{
+    color: #fff;
+    width: 576.93px;
+    height: 50px;
+    position: relative;
+    top: 215px;
+    left: 93px;
+    font-size: 20px;
+    font-family:Inter ;
+    
+}
+.img1{
+    position: absolute;
+    top: 182px;
+    
+    left:868px;
+    width: 481px;
+    height: 456px;
+    
+    background-image: url("img/Rectangle\ 19.png");
+
+}
+.img2{
+    position:absolute;
+    left: 2px;
+    top: 462px;
+    width: 514px;
+    height: 455.18px;
+    background-image: url("img/Rectangle\ 18.png");
+    background-repeat: no-repeat;
+}
+.text1{
+    position: absolute;
+    left: 140px;
+    top: 200px; 
+    color: #FFF;
+    font-family: Playfair Display,serif;
+    font-size: 270.878px;
+    font-style: normal;
+    font-weight:bold;
+    line-height: normal; 
+    margin-top: 30px;
+}
+.text2{
+  position: absolute;
+  top:445.41px ;  
+  left: 390.54px;
+  color: #FFF;
+font-family:Playfair Display;
+font-size: 242.03px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.button1{
+    position: absolute;
+    left: 637.39px;
+    top: 820px;
+    width: 221px;
+    height: 61px;
+  
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.button1 p{
+    color: #000;
+font-family: Inter;
+font-size: 32.638px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+
+}
+.port {
+    position: absolute;
+    top: 1098.4px;
+    left: 507.33px;
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.img-port1{
+    position:absolute;
+    top: 1250px;
+    left:676px ;
+    width: 490.409px;
+height: 530.874px; 
+background-image: url("img/Rectangle\ 2.png");
+}
+.img-port2{
+    position:absolute;
+    top: 1250px;
+    left:123px ;
+    width: 490.409px;
+    height: 845px; 
+    background-image: url("img/Rectangle\ 1.png");
+}
+
+.img-port3{
+    position:absolute;
+    top: 1848px;
+    left:676.92px ;
+    width: 490.41px;
+    height: 1180px; 
+    background-image: url("img/Rectangle\ 3.png");
+}
+
+.img-port4{
+    position:absolute;
+    top: 2161px;
+    left:123.45px ;
+    width: 490.4px;
+    height: 695px; 
+    background-image: url("img/Rectangle\ 4.png");
+}
+
+.img-port5{
+    position:absolute;
+    top: 3100px;
+    left:676.45px ;
+    width: 490.4px;
+    height: 514px; 
+    background-image: url("img/Rectangle\ 6.png");
+}
+
+
+.img-port6{
+    position:absolute;
+    top: 2929px;
+    left:123px ;
+    width: 490.4px;
+    height: 682px; 
+    background-image: url("img/Rectangle\ 5.png");
+}
+
+.about{
+    position:absolute;
+    width: 185px;
+    height: 92px;
+    top: 3940px;
+    left: 549.33px;
+}
+.about p{
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+}
+
+.img-about1{
+    position:absolute;
+    top: 4092px;
+    left:697px ;
+    width: 500px;
+    height: 684px; 
+    background-image: url("img/Rectangle\ 7.png"); 
+}
+.about-text{
+  position: absolute;
+  top: 4148px;
+  left: 98px ; 
+  color: #FFF;
+  width: 538.076px; 
+  height: 574px;
+font-family: Inter;
+font-size: 33.992px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;  
+}
+.about-text2{
+    position: absolute;
+    left: 449px;
+    top: 5069px;
+    width: 397px;
+    height: 92px;
+    
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+
+}
+
+.about-text3{
+    position: absolute;
+    left: 172px;
+    top: 5181px;
+    width: 951px;
+    height: 69px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.696px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+
+}
+
+.Testimonials-container{
+  position: absolute;
+    top: 5300px;
+    left: 164px;
+    width: 951px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Testimonials-chaild1{
+ height: 539px; 
+ width: 627px;
+}
+.Testimonials-chaild2{
+    height:100%; 
+ width: 277px;
+ display: flex;
+
+ flex-direction: column;
+ 
+ 
+}
+.testimonials-kids1{
+    width: 627px;
+    height: 277px;
+    margin-bottom: 40px; 
+    display: flex;
+    flex-direction: row; 
+    background-color: #292929; 
+ 
+}
+.testimonials-kids2{
+    width: 627px;
+    height: 277px;
+    margin-top: 40px;  
+    display: flex;
+    flex-direction: row-reverse; 
+    background-color: #292929; 
+ 
+}
+.testimonials-kids1-img{
+    background-image: url("img/Rectangle\ 31.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 262.59px;
+    height: 277.95px;
+}
+.testimonials-kids1-img2{
+    background-image: url("img/Rectangle\ 26.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 262.59px;
+    height: 277.95px;
+}
+.testimonials-kids1-txt{
+
+    width: 365.76px;
+    height: 263px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #292929; 
+}
+.testimonials-kids1-txt1-p1{
+    width: 354.51px;
+    height: 76px;
+    color: #FFF;
+    margin-top:20px;
+    margin-left: 20px;
+    color: #FFF;
+font-family: Inter;
+font-size: 37.391px;
+font-style: normal;
+font-weight: 600;
+line-height: 101.523%;
+}
+.testimonials-kids1-txt1-p2{
+    width: 246.62px;
+    height: 60px;
+   
+    margin-top:20px;
+    margin-left: 20px; 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12.747px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+.testimonials-kids1-txt1-p3{
+    width: 96px;
+    height: 17px;
+   
+    margin-top:50px;
+    margin-left: 20px; 
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 13.654px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.icon{
+    position: relative;
+    left: 100px;
+    bottom: 17px;
+    width: 25.728px;
+height: 16.512px;
+flex-shrink: 0; 
+stroke-width: 1.861px;
+stroke: #FFF; 
+}
+.Testimonials-chaild2-img3{
+    width: 100%;
+    height: 310px;
+
+   
+    background-image: url("img/Rectangle\ 28.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Testimonials-chaild2-text2{
+    width: 100%;
+    height: 365.76px;
+    display: flex;
+    flex-direction: column;
+    background-color: #292929; 
+ 
+}
+.Testimonials-chaild2-text2-p1{
+    width: 237.41px;
+    height: 114px;
+    color: #FFF;
+    margin-top: 20px;
+    margin-left: 20px;
+font-family: Inter;
+font-size: 37.391px;
+font-style: normal;
+font-weight: 600;
+line-height: 101.523%;
+}
+.Testimonials-chaild2-text2-p2{
+    width: 187.41px;
+    height: 75px;
+    color: #FFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 12.747px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+.viewBox{
+    height: 100px;
+    width: 200px;
+    border:2px solid #FFF;
+    position: absolute;
+    top: 6000px;
+    left: 544.73px;
+    width: 188.61px;
+    height: 66.11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+text-align: right;
+font-family: Inter;
+font-size: 18.507px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+.contact{
+    position: absolute;
+   top: 6380.03px;
+   left: 526.91px;
+   color: #FFF;
+font-family: Playfair Display;
+font-size: 69.096px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+
+}
+.container-contact{
+    position: absolute;
+   top: 6500.03px;
+   left: 280px;
+ 
+   width: 800px;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+  
+
+}
+
+.name{
+height: 100px;
+width: 100%;
+margin-bottom:40px;
+}
+.name p{
+    color: #FFF;
+font-family: Inter;
+font-size: 38.027px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+
+}
+.name input{
+    width: 727px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #BBB;
+font-family: Inter;
+font-size: 21.245px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+outline: none;
+}
+
+.message{
+    width: 100px;
+    height: 200px;
+
+}
+.message p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 38.027px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-transform: capitalize;
+}
+.message input{
+    width: 727px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 110px;
+    margin-top: 10px;
+    color: #BBB;
+font-family: Inter;
+font-size: 21.245px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+text-transform: capitalize;
+outline: none;
+}
+.container-contact button{
+    margin-top: 70px;
+    height: 60px;
+    width: 160px;
+    border-radius: 0%;
+    border: none;
+    color: #000;
+font-family: Inter;
+font-size: 32.638px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+.Company{
+    position: absolute;
+    top: 7490px;
+    left: 557.32px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18.696px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.Privacy{
+    position: absolute;
+    left: 464.68px;
+    top: 7533.43px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18.696px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.Terms{
+    position: absolute;
+    top: 7533.43px;
+    left: 618.33px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18.696px;
+font-style: normal;
+font-weight: 300;
+line-height: normal
+}
