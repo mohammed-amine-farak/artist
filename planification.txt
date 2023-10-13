@@ -1,0 +1,4 @@
+etape 1:analyser comment le site web doit etre pendant 1 jour.
+etape 2:creez des maquettes pour les pages du site web pendant 2 heures.
+etape 3:creation de page home apres creation de la page portfolio apres page about et page contact pendant 4 jours.
+etape 4:push dans le github et heberger sur github pages pendant 1 heure.
